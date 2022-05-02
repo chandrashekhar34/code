@@ -21,9 +21,7 @@ namespace CarData
             userInput.AddCarDistanceTime(500, 4);
             userInput.AddCarDistanceTime(800, 5);
             userInput.AddCarDistanceTime(1000, 4);
-
-            DataSet set = new DataSet();
-            userInput.Attribute1.Add(set);
+           
             int count = 0;
             foreach (var item in userInput.GetAttribute1())
             {
